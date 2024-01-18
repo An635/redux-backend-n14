@@ -46,5 +46,5 @@ app.use(bodyParser.urlencoded({ extended: true }));
 initWebRoutes(app);
 
 app.listen(PORT, () => {
-    console.log(">>> JWT Backend is running on the port = " + PORT);
+    console.log(`>>> JWT Backend is running on the : http://localhost:${PORT}`);
 })
